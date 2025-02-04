@@ -1,0 +1,228 @@
+.app{
+    /* background: rgb(141,185,217); */
+    /* background: radial-gradient(circle, rgba(141,185,217,0.8240546218487395) 5%, rgba(178,153,235,0.8772759103641457) 93%);  */
+    /* background: rgb(229, 230, 236); */
+    /* font-family: sofia-pro, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Poppins', sans-serif; */
+    /* background: linear-gradient(
+              180deg,
+              rgba(217, 214, 214, 0.7) 0%,
+              rgba(255, 255, 255, 0.6) 40%,
+              rgba(169, 169, 169, 0.7) 100%
+          ),
+          radial-gradient(
+              circle at 50% 50%,
+              rgba(255, 255, 255, 0.7) 0%,
+              rgba(255, 255, 255, 0.5) 0%,
+              rgba(255, 255, 255, 0) 50%
+          );
+      background-blend-mode: overlay;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px); */
+  font-family: "Playfair Display", serif;
+}
+.hamburger{
+  
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+            180deg,
+            rgba(174, 217, 255, 0.7) 0%,
+            rgba(234, 179, 255, 0.6) 50%,
+            rgba(233, 211, 255, 0.7) 100%
+        ),
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(255, 255, 255, 0.7) 0%,
+            rgba(255, 255, 255, 0.5) 0%,
+            rgba(255, 255, 255, 0) 50%
+        );
+    background-blend-mode: overlay;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    z-index: 100;
+}
+
+/* .faculty{
+  background: linear-gradient(
+            180deg,
+            rgba(168, 168, 168, 0.7) 0%,
+            rgba(255, 255, 255, 0.6) 40%,
+            rgba(169, 169, 169, 0.7) 100%
+        ),
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(255, 255, 255, 0.7) 0%,
+            rgba(255, 255, 255, 0.5) 0%,
+            rgba(255, 255, 255, 0) 50%
+        );
+    background-blend-mode: overlay;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+} */
+.courses{
+    /* background: linear-gradient(
+            180deg,
+            rgba(227,214,188, 0.6) 50%,
+            rgba(240, 212, 185, 0.7) 0%,
+            rgba(229, 199, 164, 0.642) 100%
+        ),
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(142, 199, 168, 0.7) 0%,
+            rgba(225, 233, 203, 0.5) 0%,
+            rgba(236, 240, 106, 0) 50%
+        );
+    background-blend-mode: overlay;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px); */
+    background-color: rgb(234, 234, 234);
+}
+
+.whyUs{
+    
+    /* background: linear-gradient(
+             90deg,
+            rgba(75, 67, 196, 0.7) 0%,
+            rgba(110, 98, 239, 0.6) 50%,
+            rgba(183, 189, 220, 0.642) 100% 
+    
+         ),
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(255, 255, 255, 0.7) 0%,
+            rgba(255, 255, 255, 0.5) 0%,
+            rgba(255, 255, 255, 0) 50%
+        );
+    background-blend-mode: overlay;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px); */
+    background-color: #ffff;
+
+}
+
+
+/* .currentStatus{
+    background: linear-gradient(
+            180deg,
+            rgba(255, 179, 57, 0.922) 0%,
+            rgba(249, 159, 3, 0.6) 50%,
+            rgba(255, 183, 0, 0.642) 100%
+        ),
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(255, 255, 255, 0.7) 0%,
+            rgba(255, 255, 255, 0.5) 0%,
+            rgba(255, 255, 255, 0) 50%
+        );
+
+       
+} */
+
+.form{
+    background: linear-gradient(
+            180deg,
+            rgba(176,214,233, 0.7) 0%,
+            rgba(112, 81, 139, 0.6) 50%,
+            rgba(197, 164, 230, 0.642) 100%
+        ),
+        radial-gradient(
+            circle at 90% 90%,
+            rgba(162,163,218, 0.7) 0%,
+            rgba(151,164,217, 0.5) 50%,
+            rgba(127, 199, 162, 0) 100%
+        );
+    background-blend-mode: overlay;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+.footer{
+    /* background: linear-gradient(
+            180deg,
+            rgba(210, 184, 236, 0.7) 0%,
+            rgba(135, 115, 152, 0.6) 50%,
+            rgba(174, 157, 191, 0.642) 100%
+        ),
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(232, 100, 230, 0.7) 0%,
+            rgba(251, 251, 251, 0.5) 0%,
+            rgba(198, 126, 213, 0.2) 50%
+        );
+    background-blend-mode: overlay;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px); */
+}
+
+
+  
+
+
+
+/* Add this in your CSS file (e.g., Home.css) */
+/* .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.9s ease-in-out, transform 0.5s ease-in-out;
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    -webkit-transition: opacity 0.8s ease-in-out, transform 1.2s ease-in-out;
+    -moz-transition: opacity 0.8s ease-in-out, transform 1.2s ease-in-out;
+    -ms-transition: opacity 0.8s ease-in-out, transform 1.2s ease-in-out;
+    -o-transition: opacity 0.8s ease-in-out, transform 1.2s ease-in-out;
+} */
+  
+  /* .fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+} */
+
+/* Base styling for scroll animations */
+/* .scroll-animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.9s ease-out, transform 0.5s ease-out;
+    -webkit-transition: opacity 1.8s ease-out, transform 0.8s ease-out;
+    -moz-transition: opacity 1.8s ease-out, transform 0.8s ease-out;
+    -ms-transition: opacity 1.8s ease-out, transform 0.8s ease-out;
+    -o-transition: opacity 1.8s ease-out, transform 0.8s ease-out;
+} */
+  
+  /* .scroll-animate.active {
+    opacity: 1;
+    transform: translateY(0); 
+  } */
+  
+  /* Add more attractive effects */
+  /* .scroll-animate.zoom-in {
+    transform: scale(0.8);
+  }
+  
+  .scroll-animate.zoom-in.active {
+    transform: scale(1);
+  }
+  
+  .scroll-animate.slide-left {
+    transform: translateX(-50px);
+  }
+  
+  .scroll-animate.slide-left.active {
+    transform: translateX(0);
+  }
+  
+  .scroll-animate.slide-right {
+    transform: translateX(50px);
+  } */
+  
+  /* .scroll-animate.slide-right.active {
+    transform: translateX(0);
+  }
+   */
+  

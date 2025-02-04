@@ -1,0 +1,27 @@
+.main-header{
+  width:100%;
+}
+
+@media (max-width: 1024px) {  /* For medium screens like tablets */
+  .main-header{
+    width:100%;
+  }
+}
+
+@media (max-width: 768px) {  /* For smaller screens */
+  .main-header{
+    width:100%;
+  }
+}
+
+@media (min-width:300px) and (max-width: 799px) {
+
+  .headerfirst{
+    visibility: hidden;
+  }
+
+  .headersecond{
+    position:fixed;
+    top:0;
+  }
+}
