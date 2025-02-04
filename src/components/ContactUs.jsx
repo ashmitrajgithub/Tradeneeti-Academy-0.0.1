@@ -10,10 +10,10 @@ function ContactUs({ contactRef }) {
 
         emailjs
             .sendForm(
-                "service_ahecjz8", 
-                "template_vdv9yql",
+                "service_ur73r7o", 
+                "template_hz92rng",
                 form.current,
-                "qmRPDPjcn-kUU_oL2"
+                "yPnXcwA8oPcbpAn7f"
             )
             .then(
                 (result) => {
