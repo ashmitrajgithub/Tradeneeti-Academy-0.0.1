@@ -12,28 +12,28 @@ function WhyUs() {
   const services = [
     {
       index: "1",
-      image: "/TradeNeetiAcademy/assets/011.jpg",
+      image: "/assets/011.jpg",
       title: "Global Market Courses for Industry Excellence",
       description:
         "We offer the most comprehensive global market courses, covering a wide range of industries. Our expert-designed programs provide in-depth insights, equipping professionals with essential skills and knowledge to stay ahead in today's competitive business environment.",
     },
     {
       index: "2",
-      image: "/TradeNeetiAcademy/assets/013.jpg",
+      image: "/assets/013.jpg",
       title: "Empowering Independent and Profitable Traders",
       description:
         "We aim to create independent and consistently profitable traders by providing expert training, in-depth strategies, and practical tools. Our programs empower individuals to make informed decisions, manage risk effectively, and build a sustainable trading career.",
     },
     {
       index: "3",
-      image: "/TradeNeetiAcademy/assets/014.jpg",
+      image: "/assets/014.jpg",
       title: "Global Financial Education and Mentorship",
       description:
         "We mentor students worldwide, offering diverse and comprehensive financial education. Our courses cover various financial concepts, from basic principles to advanced strategies, ensuring that learners gain the knowledge and skills needed to excel in global financial markets.",
     },
     {
       index: "4",
-      image: "/TradeNeetiAcademy/assets/01.jpg",
+      image: "/assets/01.jpg",
       title: "Building a Community of Independent Traders",
       description:
         "Our goal is to create a strong trading community of independent traders, where individuals can share knowledge, insights, and strategies. By fostering collaboration and providing continuous support, we empower traders to achieve success and financial independence.",

@@ -5,19 +5,19 @@ import "aos/dist/aos.css";
 export default function WhytoJoin() {
   const features = [
     {
-      icon: "/TradeNeetiAcademy/assets/gif1.webp", // Corrected the path
+      icon: "/assets/gif1.webp", // Corrected the path
       title: "Expert Guidance",
       description:
         "Gain insights from seasoned traders and mental health professionals who understand the emotional aspects of trading.",
     },
     {
-      icon: "/TradeNeetiAcademy/assets/gif2.webp", // Corrected the path
+      icon: "/assets/gif2.webp", // Corrected the path
       title: "Strong Foundation",
       description:
         "Build a strong trading foundation through ongoing education, weekly webinars, and resources designed to enhance your skills.",
     },
     {
-      icon: "/TradeNeetiAcademy/assets/gif2.webp", // Corrected the path
+      icon: "/assets/gif2.webp", // Corrected the path
       title: "Supportive Community",
       description:
         "Participate in regular meetups to connect with fellow traders, share experiences, and foster a supportive trading network.",
