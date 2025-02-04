@@ -32,19 +32,19 @@ function Header({ toggleLocationPopup }) {
 
           <div className="socialInfo flex gap-3">
             <a href="https://www.linkedin.com/company/tradeneeti-academy">
-              <FaInstagramSquare size={20} className="text-white hover:text-red-300" />
+              <FaInstagramSquare size={20} className="text-white hover:text-gray-300" />
             </a>
             <a href="https://www.facebook.com/tradeneetiacademy" target="_blank">
-              <FaFacebook size={20} className="text-white hover:text-blue-300" />
+              <FaFacebook size={20} className="text-white hover:text-gray-300" />
             </a>
             <a href="#" target="_blank">
-              <IoLogoTwitter size={20} className="text-white hover:text-blue-300" />
+              <IoLogoTwitter size={20} className="text-white hover:text-gray-300" />
             </a>
             <a href="#" target="_blank">
-              <FaTelegram size={20} className="text-white hover:text-blue-300" />
+              <FaTelegram size={20} className="text-white hover:text-gray-300" />
             </a>
             <button onClick={toggleLocationPopupHandler}>
-              <FaMapMarkerAlt size={20} className="text-white hover:text-blue-300" />
+              <FaMapMarkerAlt size={20} className="text-white hover:text-gray-300" />
             </button>
           </div>
         </div>
@@ -56,14 +56,14 @@ function Header({ toggleLocationPopup }) {
             <img src="./assets/BrandLogo.png" alt="TREADNEETI" className="h-7 w-auto sm:h-10" />
           </div>
           <div className="text-white hidden md:flex justify-evenly gap-8 font-semibold">
-            <Link to="home" smooth={true} duration={200} offset={-150} className="text-white hover:text-yellow-300 transition cursor-pointer">
+            <Link to="home" smooth={true} duration={200} offset={-150} className="text-whitehover:text-gray-400 transition cursor-pointer">
               Home
             </Link>
-            <Link to="contact-us" smooth={true} duration={200} offset={-90} className="text-white hover:text-yellow-300 transition cursor-pointer">
+            <Link to="contact-us" smooth={true} duration={200} offset={-90} className="text-whitehover:text-gray-400 transition cursor-pointer">
               Apply Now
             </Link>
             <a href="https://api.whatsapp.com/send?phone=+916206256034&text=Hello !">Support</a>
-            <Link to="courses" smooth={true} offset={-90} duration={200} className="text-white hover:text-yellow-300 transition cursor-pointer">
+            <Link to="courses" smooth={true} offset={-90} duration={200} className="text-whitehover:text-gray-400 transition cursor-pointer">
               Courses
             </Link>
           </div>
