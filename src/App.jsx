@@ -8,6 +8,7 @@ import CurrentStatus from './components/CurrentStatus';
 import Location from './components/location/Location';
 import LoadingScreen from './components/LoadingScreen';
 import WhyUs from './components/whyUs/WhyUs';
+import Askme from "./components/askme/ChatBot";
 // import TextAnimation from './components/TextAnimation'
 import Home from './components/Home';
 
@@ -35,6 +36,7 @@ function App() {
       ) : (
         <div className="app">
           <Header toggleLocationPopup={toggleLocationPopup} />
+          <Askme />
           {/* <TextAnimation /> */}
           <Home/>
           <WhyUs />

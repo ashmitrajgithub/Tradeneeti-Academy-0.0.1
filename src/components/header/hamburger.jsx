@@ -1,71 +1,56 @@
-import { GiCancel } from "react-icons/gi";
+import React from "react";
 import { Link } from "react-scroll";
+import { FaHome, FaPaperPlane, FaGraduationCap, FaEnvelope } from "react-icons/fa";
 
-function Hamburger({ toggleMenu, setIsNavOpen }) {
-    return (
-        <nav className="hamburger md:hidden  absolute right-0 top-0 shadow-lg">
-            <div className="m-5" onClick={toggleMenu}>
-                <GiCancel size={28} />
-            </div>
-
-            <ul className="flex flex-col items-center c-white gap-4 py-5 font-semibold">
-                <li>
-                    <a
-                        href="#"
-                        className="hover:text-blue-800"
-                        onClick={() => setIsNavOpen(false)}
-                    >
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <Link 
-                        to="contact-us" 
-                        smooth={true} 
-                        duration={200} 
-                        offset={-90} 
-                        className="text-white hover:text-yellow-300 transition cursor-pointer"
-                        onClick={() => setIsNavOpen(false)}
-                    >
-                        Apply Now
-                    </Link>
-                </li>
-                <li>
-                    <Link 
-                        to="why-us" 
-                        smooth={true} 
-                        duration={200} 
-                        offset={-90} 
-                        className="text-white hover:text-yellow-300 transition cursor-pointer"
-                        onClick={() => setIsNavOpen(false)}
-                    >
-                        About Us
-                    </Link>
-                </li>
-                <li>
-                    <Link 
-                        to="courses" 
-                        smooth={true}  
-                        offset={-90} 
-                        duration={200} 
-                        className="text-white hover:text-yellow-300 transition cursor-pointer"
-                        onClick={() => setIsNavOpen(false)}
-                    >
-                        Courses
-                    </Link>
-                </li>
-                <li>
-                    <a 
-                        href="https://api.whatsapp.com/send?phone=+916206256034&text=Hello !" 
-                        className="text-white hover:text-yellow-300 transition"
-                        onClick={() => setIsNavOpen(false)}
-                    >
-                        Contact Us
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    );
+function Hamburger({ toggleMenu }) {
+  return (
+    <div className="bg-gray-800 text-white p-4 flex flex-col space-y-4">
+      <Link
+        to="home"
+        smooth={true}
+        duration={200}
+        offset={-150}
+        onClick={toggleMenu}
+        className="flex items-center space-x-2 cursor-pointer hover:text-gray-400 transition"
+      >
+        <FaHome />
+        <span>Home</span>
+      </Link>
+      <Link
+        to="apply-now"
+        smooth={true}
+        duration={200}
+        offset={-90}
+        onClick={toggleMenu}
+        className="flex items-center space-x-2 cursor-pointer hover:text-gray-400 transition"
+      >
+        <FaPaperPlane />
+        <span>Apply Now</span>
+      </Link>
+      <Link
+        to="courses"
+        smooth={true}
+        duration={200}
+        offset={-90}
+        onClick={toggleMenu}
+        className="flex items-center space-x-2 cursor-pointer hover:text-gray-400 transition"
+      >
+        <FaGraduationCap />
+        <span>Courses</span>
+      </Link>
+      <Link
+        to="contact-us"
+        smooth={true}
+        duration={200}
+        offset={-90}
+        onClick={toggleMenu}
+        className="flex items-center space-x-2 cursor-pointer hover:text-gray-400 transition"
+      >
+        <FaEnvelope />
+        <span>Contact Us</span>
+      </Link>
+    </div>
+  );
 }
 
 export default Hamburger;

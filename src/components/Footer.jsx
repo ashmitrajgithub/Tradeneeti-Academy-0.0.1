@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 function Footer() {
     return (
         <>
-            <footer className="relative overflow-hidden z-10 bg-[rgb(93,68,112)] shadow-2xl footer footer-main">
+            <footer className="relative overflow-hidden z-10 bg-gradient-to-br from-black to-gray-700 shadow-2xl footer footer-main">
                 <div className="flex flex-wrap justify-between items-center mb-5 gap-4 p-5 ">
                     <img src="./assets/BrandLogo.png" alt="logo" className="w-32 mb-2" />
                     <div className="flex gap-4">
