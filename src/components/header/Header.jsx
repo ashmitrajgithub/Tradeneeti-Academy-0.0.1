@@ -8,7 +8,7 @@ import {
   FaGraduationCap, 
   FaEnvelope 
 } from "react-icons/fa";
-import Hamburger from "./Hamburger";
+import Hamburger from "./hamburger";
 import "./header.css";
 
 function Header() {
