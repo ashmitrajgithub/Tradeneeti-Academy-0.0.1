@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { Link } from "react-scroll"
 import { FaHome, FaPaperPlane, FaGraduationCap, FaEnvelope, FaChevronDown } from "react-icons/fa"
-import Hamburger from "./Hamburger"
+import Hamburger from "./hamburger"
 import "./header.css"
 
 function Header() {
