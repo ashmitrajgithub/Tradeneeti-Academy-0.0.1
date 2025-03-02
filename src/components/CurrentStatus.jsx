@@ -26,7 +26,7 @@ function CurrentStatus() {
     <>
       <section 
         ref={ref} 
-        className="p-5 md:mt-24 mb-24 sticky top-20 z-10 fade-in bg-[#d9c4e9] "
+        className="p-5 md:mt-24 mb-24 sticky top-20 z-100 fade-in bg-[#d9c4e9] "
       >
         <div className="">
           <div className="">

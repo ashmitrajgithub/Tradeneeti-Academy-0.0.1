@@ -49,28 +49,31 @@ export default function WhytoJoin() {
   }, []);
 
   return (
-    <section className="py-16 px-4">
-      <div className="max-w-6xl mx-auto">
+    <section
+  className="py-16 px-4"
+  style={{ background: "linear-gradient(45deg, #000, #434242)" }}
+>
+      <div className="max-w-6xl text-white mx-auto">
         {/* Scroll-triggered Heading Animation */}
         <h2
-          className="text-2xl lg:text-4xl lg:mb-16 font-bold text-center mb-10"
+          className="text-2xl lg:text-4xl text-white lg:mb-16 font-bold text-center mb-10"
           data-aos="fade-up" // Animation for the heading
         >
           Why Join Tradeneeti Academy?
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-4 lg:gap-8 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-4 lg:gap-8 text-white justify-items-center">
           {features.map((feature, index) => (
             <div
               key={index}
               className="flex flex-col items-center text-center max-w-sm md:max-w-xs lg:max-w-sm"
               data-aos="fade-up" // Animation for the feature section
             >
-              <div className="w-16 h-16 flex items-center justify-center mb-4">
+              <div className="w-16 h-16 flex items-center text-white justify-center mb-4">
                 <img src={feature.icon} alt={feature.title} className="w-12 h-12" />
               </div>
               <h3 className="text-2xl font-bold mb-4">{feature.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+              <p className="text-white leading-relaxed">{feature.description}</p>
             </div>
           ))}
         </div>
